@@ -34,4 +34,4 @@ $router->get('/test/ccc','Index\UserController@ccc');
 
 $router->get('/test/ddd','Index\UserController@ddd');
 
-$router->any('/login','Index\TestController@login');
+$router->get('/login','Index\TestController@login');
