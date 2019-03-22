@@ -9,8 +9,7 @@ use Illuminate\Support\Facades\Redis;
 
 class TestController extends Controller
 {
-    public function login(Request $request){
-
+    public function login(){
         echo 111;
             exit;
             $name=$request->input('u_name');
