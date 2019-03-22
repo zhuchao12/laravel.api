@@ -26,3 +26,10 @@ $router->get('/user/zhangsan','Index\UserController@User');
 $router->get('/test/login','Index\UserController@Login');
 $router->post('/test/ucenter','Index\UserController@uCenter');
 $router->get('/test','Index\UserController@test');
+
+$router->get('/test/aaa','Index\UserController@aaa');
+$router->get('/test/bbb','Index\UserController@bbb');
+
+$router->get('/test/ccc','Index\UserController@ccc');
+
+$router->get('/test/ddd','Index\UserController@ddd');
