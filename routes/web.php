@@ -34,4 +34,4 @@ $router->get('/test/ccc','Index\UserController@ccc');
 
 $router->get('/test/ddd','Index\UserController@ddd');
 
-$router->get('/login','Index\TestController@login');
+$router->post('/login','Index\TestController@login');
